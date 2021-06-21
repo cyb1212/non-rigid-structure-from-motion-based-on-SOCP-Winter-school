@@ -4,6 +4,9 @@ The cited reference is: Paper: A. Chhatkuli, D. Pizarro, T. Collins and A. Barto
 
 The network parts of this code has been delated as a potential homework for the winter school. The pre-operations, including basic data loading, CVX toolbox installing, and nearest-neighbour graph (NNG) generation, and the later-evaluation/vision operations have been provided. The readers can complete the following steps:
 
+## Configuration 
+This code is build based on CVX toolbox. Please install CVX (version later than Version 2.2) before running this code. Unzip file: toolbox_fast_marching.zip. Run main.m and answer the question: "Have you installed CVX? Y/N [Y]:"
+
 ## adding the constaints part based on the following convex problem:
 Because we use the perspective camera, the 3D features are written using the depth variable and 2D known pixels.The deformation model is based on surface inextensibility, which says that the Euclidean distance between any two points pki and pkj is upper bounded by the geodesic distance dij. The geodesic distance dij and the NNG N can be computed easily as the template shape is given. 
 
